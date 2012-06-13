@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Email:</b>
+  <%= @profile.email %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @profile.name %>
+</p>
+
+<p>
+  <b>Abturself:</b>
+  <%= @profile.abturself %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @profile.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @profile.state %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @profile.country %>
+</p>
+
+<p>
+  <b>Stability:</b>
+  <%= @profile.stability %>
+</p>
+
+<p>
+  <b>Partnerquality:</b>
+  <%= @profile.partnerquality %>
+</p>
+
+<p>
+  <b>Likes:</b>
+  <%= @profile.likes %>
+</p>
+
+<p>
+  <b>Dislike:</b>
+  <%= @profile.dislike %>
+</p>
+
+<p>
+  <b>Hobbies:</b>
+  <%= @profile.hobbies %>
+</p>
+
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

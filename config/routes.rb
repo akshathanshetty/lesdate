@@ -1,5 +1,7 @@
 Lesdate::Application.routes.draw do
 
+  resources :profiles
+
 devise_for :users do
     get "/login", :to => "devise/sessions#new" # Add a custom sign in route for user sign in
     get "/logout", :to => "devise/sessions#destroy" # Add a custom sing out route for user sign out
